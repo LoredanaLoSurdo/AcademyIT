@@ -13,7 +13,6 @@
 int	ft_str_is_printable(char *str)
 {
 	int	i;
-	int	sixty;
 
 	i = 0;
 	while (str[i] != '\0')

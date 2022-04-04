@@ -13,7 +13,6 @@
 int	ft_str_is_numeric(char *str)
 {
 	int	i;
-	int	forty;
 
 	i = 0;
 	while (str[i] != '\0')

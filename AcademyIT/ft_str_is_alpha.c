@@ -13,5 +13,5 @@
 #include <stdio.h>
 int main()
 {
-	prinft("Hello from 42! And from Rikki!");
+	prinft("Hello from 42!");
 }

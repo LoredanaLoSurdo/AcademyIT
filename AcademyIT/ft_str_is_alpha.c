@@ -10,13 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-<<<<<<< HEAD
 #include <stdio.h>
-int main()
-{
-	prinft("Hello from 42!");
-}
-=======
+
 int	ft_str_is_alpha(char *str)
 {
 	int	i;
@@ -42,4 +37,3 @@ int    main(void)
     printf("%d\n", alpha);
 }
 */
->>>>>>> parent of 3237c37 (Revert "Add files via upload")

@@ -10,8 +10,28 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-int main()
+int	ft_str_is_alpha(char *str)
 {
-	prinft("Hello from 42!");
+	int	i;
+
+	i = 0;
+	while (str[i] != '\0')
+	{
+		if ((str[i] < 'a' || str[i] > 'z') && (str[i] < 'A' || str[i] > 'Z'))
+		{
+			return (0);
+		}
+		i++;
+	}
+	return (1);
 }
+/*
+#include <stdio.h>
+int    main(void)
+{
+	int alpha;
+    char a[] = "AaZz";
+    alpha = ft_str_is_alpha(a);
+    printf("%d\n", alpha);
+}
+*/
